@@ -44,3 +44,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'fantastic_robot', git: 'git@github.com:odarriba/fantastic_robot.git', branch: 'features/activemodel-5'
